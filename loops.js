@@ -6,3 +6,10 @@ function forLoop(arr) {
   }
   return arr
 }
+
+function whileLoop(number) {
+  while(number >= 0) {
+    console.log(--number);
+  }
+  return 'done'
+}
